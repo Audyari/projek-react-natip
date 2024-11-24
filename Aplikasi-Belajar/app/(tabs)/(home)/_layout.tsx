@@ -11,7 +11,8 @@ export default function HomeLayout() {
                 headerTitleStyle: {
                     fontWeight: 'bold',
                 },
-            }}>
+            }}
+        >
             <Stack.Screen name="index" />
             <Stack.Screen name="details" />
         </Stack>
